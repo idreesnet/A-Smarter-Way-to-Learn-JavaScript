@@ -196,3 +196,56 @@ This set of conditions has four criteria, which are combined with "**&&**" that 
 
 |age > 65 | age < 21 or Resident of Pakistan |
 |---|---|
+<hr>
+
+# *if* statements nested
+
+Check out this code.
+```
+if ((x === y || a === b ) && c === d) {
+	g = h;
+}
+else {
+	e = f
+}
+```
+
+and this (nested if statements)
+```
+if (c === d) {
+	if(x === y ) {
+		g = h;
+	}
+	else if (a === b) {
+		g = h;
+	}
+	else {
+		e = f;
+	}
+}
+else {
+	e = f;
+}
+```
+<hr>
+
+# Arrays
+Assigning of some string values to some variabls.
+```
+var city0 = "Karachi";
+var city1 = "Lahore";
+var city2 = "Islamabad";
+var city3 = "Faisalabad";
+var city4 = "Multan";
+var city5 = "Peshawar";
+var city6 = "Quetta";
+```
+
+```
+var cities = ["Karachi", "Lahore", "Islamabad", "Faisalabad", "Multan", "Peshawar", "Quetta"];
+```
+
+Mixed array
+```
+var mixedArray = [23, "Idrees", true, "2023"];
+```
