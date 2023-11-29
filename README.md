@@ -38,13 +38,18 @@ console.log(total.toFixed(3));  //output: 10.596
 
 # Date and time
 
+## Getting the current data and time
+
 ```
 var currentDateTime = new Date();
 //output: Wed Nov 29 2023 21:15:45 GMT+0500 (Pakistan Standard Time)
 ```
 
 The above code create a *Date Object*. This is what it looks like
-![JavaScript Date Object](resources/JS_date_object.jpg)
+|![JavaScript Date Object](resources/JS_date_object.jpg)|
+|--|
+|*This image is taken from the book "A smarter way to learn JavaScript by Mark Myers.*|
+
 
 The date object is looking like a string but, it's not. You you cannot use string methods like `slice`, `indexOf`, `charAt` and etc on it.
 
@@ -54,7 +59,6 @@ If you need the *Date object* to be string, you can convert it. As you do a numb
 var dateString = currentDateTime.toString();
 ```
 
-## Getting the current data and time
 ## Extracting parts of the date and time
 ## Specifying a date and time
 ## Changing elements of a date and time
