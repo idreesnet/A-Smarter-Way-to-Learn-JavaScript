@@ -35,3 +35,9 @@ console.log(total.toFixed(3));  //output: 10.596
 1
 <hr>
 2
+
+# Date and time
+## Getting the current data and time
+## Extracting parts of the date and time
+## Specifying a date and time
+## Changing elements of a date and time
